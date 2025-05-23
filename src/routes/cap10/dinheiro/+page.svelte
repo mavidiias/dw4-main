@@ -1,6 +1,6 @@
 <script>
     let moedas = [
-        { nome: 'Dólar americano', código: 'USD' },
+        { nome: 'Dólar americano', código: '🏳️' },
         { nome: 'Real brasileiro', código: 'BRL' },
         { nome: 'Euro', código: 'EUR' },
         { nome: 'Libra esterlina', código: 'GBP' },
