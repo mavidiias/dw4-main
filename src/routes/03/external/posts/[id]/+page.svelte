@@ -3,8 +3,8 @@
   </script>
   
   <h3>Post</h3>
-  <p><strong>Título:</strong> {data.posts.title}</p>
-  <p><strong>Corpo:</strong> {data.posts.body}</p>
+  <p><strong>Título:</strong> {post.title}</p>
+  <p>Corpo: {post.body}</p>
   
   
   <h3>Postagens do usuário</h3>
