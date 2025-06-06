@@ -2,19 +2,20 @@
     let { data } = $props();
   </script>
   
-  <h3>Post</h3>
-  <p><strong>Título:</strong> {post.title}</p>
-  <p>Corpo: {post.body}</p>
+
   
   
-  <h3>Postagens do usuário</h3>
+  <h3>Comentários do Post!</h3>
   <ul>
     {#each data.comments as comment}
-      <li><a href="/03/external/posts/{post.id}/comments">{comment.name} {comment.email} {comment.body}</a></li>
+      <li><strong>Título do comentário:</strong>{comment.name}</li> 
+      <li><strong>Email:</strong> {comment.email}</li> 
+      <li><strong>Corpo do comentário:</strong>  {comment.body}</li>
+      <br>
     {:else}
       <p>Esse post não tem comentários ainda!</p>
     {/each}
   </ul>
   <p>
     <a href="/03/external/posts">Voltar aos posts</a>
-  </p>
+  </p> 
